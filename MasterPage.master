@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>TeknoMerkez</title>
+     <link href="css/reset.css" rel="stylesheet" />
+     <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 95px;
+        }
+        .auto-style2 {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <!-- Üst Menü / Logo -->
+	<div id="ustmenu">
+		<div class="ortala">
+
+            <!-- Logo -->
+			<div class="logo">
+				<a href="Default.aspx"><img src="images/logo.jpg" alt="TeknoMerkez" /></a>
+				<br /><h1>TeknoMerkez</h1>
+				<h2>Teknolojinin Merkezi</h2>
+			</div>
+			<!-- #Logo End -->
+
+            <!-- Üst Kategori -->
+            <div class="ustkategori">
+				<ul>
+					<li><a href="Default.aspx">Anasayfa</a></li>
+					<li><a href="hakkimizda.aspx">Hakkımda</a></li>
+					<li><a href="iletisim.aspx">İletişim</a></li>
+				</ul>
+			<p><a href="uye-ol.aspx" / class="yazi">Üye Ol / Giriş Yap</a></p>
+				</br>
+			</div>
+        <!-- #Üst Kategori End -->
+            </div>
+        </div>
+        <!-- #Üst Menü / Logo End -->
+        </div>
+        <!-- Kategoriler -->
+        <div class="kategori">
+            <div class="ortala">
+                <ul>
+                    <li><a href="donanim.aspx">Donanım</a></li>
+                    <li><a href="yazilim.aspx">Yazılım</a></li>
+                    <li><a href="mobil.aspx">Mobil</a></li>
+                    <li><a href="oyun.aspx">Oyun</a></li>
+                    <li><a href="internet.aspx">İnternet</a></li>
+                    <li><a href="muzik.aspx">Müzik</a></li>
+                    <li><a href="video.aspx">Video</a></li>
+                    <li><a href="sosyal-medya.aspx">Sosyal Medya</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- #Kategoriler End -->
+        
+        <div class="ortala">
+
+        <!-- Sağ Kısım -->
+        <div id="sag">
+
+             
+            <!-- Duyuru -->
+            <div class="sagBaslik"><h2>Duyurular</h2></div>
+            <asp:ListView ID="lstDuyuru" runat="server">
+                <ItemTemplate>
+                    <div class="duyuru">
+				
+
+                        <asp:Label Text='<%#Eval ("baslik") %>' runat="server" ForeColor="Red" /><br />
+                        <asp:Label Text='<%#Eval ("duyuru") %>' runat="server"/><br />
+                        <asp:Label Text='<%#Eval ("tarih") %>' runat="server" ForeColor="#CCC" />
+
+			</div>
+                </ItemTemplate>
+            </asp:ListView>
+				<!-- #Duyuru End -->
+
+            <!-- Sosyal Ağlar -->
+			<div class="sosyalaglar">
+				<div class="sagBaslik"><h2>Sosyal Ağlar</h2></div>
+					<a href="http://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="" /></a>
+					<a href="https://plus.google.com/" target="_blank"><img src="images/gplus.png" alt="" /></a>
+			</div>
+			<!-- #Sosyal Ağlar End -->
+        </div>
+
+            <!-- Sol Kısım -->
+		<div id="sol">
+		
+		<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+			
+		</div>
+		<!-- #Sol Kısım -->
+
+            </div>
+            </div>
+        
+        <div style="clear: both"></div>
+        <!-- Footer -->
+        <div id="footer">
+	<div class="footer-sag">Tasarım: <a href="Default.aspx" title="ED Tasarım">ED Tasarım</a></div>
+	<div class="footer">
+	Tüm hakları saklıdır. 2015 © TeknoMerkez
+	</div>
+       </div>
+     <!-- #Footer End -->
+
+    </form>
+</body>
+</html>

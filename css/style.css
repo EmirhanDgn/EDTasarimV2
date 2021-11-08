@@ -1,0 +1,154 @@
+﻿body {font-family: Arial;background-color: #F8F8F8; color: #494949;}
+
+/* Genel */
+#sabitle {position: fixed; width: 100%; z-index: 9999; top: 0;}
+#ustmenu {background-color: #ffffff; box-shadow: 1px 1px 3px #eee; border-bottom: 1px solid #EBEBEB; width: 100%; height: 100px; }
+.ortala {width: 995px; margin: 0 auto;}
+/* Genel End */
+
+/* Logo */
+.logo {width: 350px; margin-top: 5px; float: left;}
+.logo img {float: left; border-radius: 26px; width: 100px; height: 90px; margin-right: 15px;}
+.logo h1 {font-size: 20px; font-weight: bold; margin-left: 15px; display: block; line-height: 25px; font-family: 'Raleway', sans-serif; font-weight:800;}
+.logo h2 {margin-left: 15px; line-height: 35px; font-family: 'Raleway', sans-serif; font-weight:400;}
+/* Logo End */
+
+/* Üst Kategori */
+.ustkategori {float: right; margin-top: 20px;}
+.ustkategori ul li {float: left;}
+.ustkategori ul li a {margin-right: 15px; text-transform: uppercase; color: #333333; font-family: 'Raleway', sans-serif; font-weight:900;}
+.ustkategori p {float:right; font-size: 10px; display: block; margin-top: 10px; width: 230px; line-height: 15px;}
+.yazi {float:right; font-size:16px; display:block; margin-top:15px; width:230px; line-height:15px; text-decoration:none; color:#808080;}
+.yazi:hover {text-decoration:underline;}
+/* Üst Kategori End */
+
+/* Kategoriler */
+.kategori {width:100%; background-color:#fbfbfb; border-bottom: 1px solid #E6E6E6; box-shadow: 1px 1px 3px #fff; padding-top: 15px; padding-bottom: 25px; margin-top:5px; overflow: hidden; text-align:center;}
+.kategori ul li {float:left; text-align:center;}
+.kategori ul li a {font-size: 16px; color: #808080; text-shadow: 1px 1px 0 #ffffff; margin-right: 20px; padding: 5px; text-transform: uppercase; font-family: 'Raleway', sans-serif; font-weight:400; text-align:center;}
+.kategori ul li a:hover{text-decoration:underline;}
+/* Kategoriler End */
+
+/* Sol Kısım */
+#sol {float: left; width: 705px; position: relative;}
+.uye-sol {float: left; margin-top:41px; width: 390px; position: relative; clear:both;}
+/* Sol Kısım End */
+
+ /* Sağ Kısım */
+#sag {float: right; width: 270px; height:700px; margin: 30px 0 20px 10px;}
+.uye-sag {float: right; width: 260px; height:700px; margin: 30px 20px 20px 10px;}
+ /* Sağ Kısım End */
+
+ /* Sağ Başlık */
+.sagBaslik h2 {font-size: 18px; line-height: 28px; border-bottom: 1px solid #dfdfdf; padding-bottom: 10px; margin-bottom: 10px;}
+ /* Sağ Başlık End */
+
+ /* Duyurular */
+.duyuru {height:280px; font-size: 18px; line-height: 28px;  margin-bottom:-130px;}
+.son-konu a {color: #494949;}
+/* Duyurular End */
+
+/* Kullanıcı Girişi */
+.kullanici {height:150px; margin-bottom: 20px; margin-top: 10px; overflow: hidden;}
+.uyepanel-kullanici {height:350px; margin-bottom: 20px; margin-top: 10px; overflow: hidden;}
+/* Kullanıcı Girişi End */
+
+/* Sosyal Aðlar */
+.sosyalaglar {overflow: hidden; margin-top: 10px;}
+.sosyalaglar img {margin-right: 13px;}
+/* Sosyal Ağlar End */
+
+.textbox
+{background:white; border: 1px solid ##e9caf2; box-shadow: 0 0 5px #ffffff; inset; color: #333; font-family:'Comic Sans MS'; float: left; padding: 7px 10px; width: 200px; outline: none; }
+
+ /* Footer */ 
+#footer {position:absolute; background-color: #FFFFFF; border-top: 1px solid #EBEBEB; width: 100%;}
+.footer-sag {float: right; padding: 10px; margin-right: 170px; line-height: 36px; font-size: 13px;}
+.footer-sag a {color: #2a60bb;}
+.footer-sag a:visited {color: #2a60bb;}
+.footer {width: 995px; margin: auto; padding: 10px; line-height: 36px; font-size: 13px;}
+ Footer End 
+
+/* Kısa Konu */
+	.kKonu {border-bottom: 1px solid #dfdfdf; padding: 40px 0; overflow: hidden; position: relative;}
+	.kKonuResim {margin-right: 30px;float: left;}
+	.kKonukat {position: absolute; top: 48px; font-size: 14px; line-height: 13px;}
+	.kKonukat a {line-height: 21px; padding: 10px;}
+	.turuncu a {background-color: #FA4B2A; color: #ffffff;}
+	.lila a {background: #46A28D; color: #FFFFFF;}
+	.gokyuzu a {background: #00C8FF; color: #FFFFFF;}
+	.acikyesil a {background: #77D100; color: #FFFFFF;}
+	.sari a {background: #FFD800; color: #FFFFFF}
+	.kirmizimsi a {background: #D45255; color: #FFFFFF;}
+	.kKonuİcerik {float: left; width: 500px;}
+	.kKonuBaslik h2 a {color: #222222; line-height: 28px; font-size: 21px; font-family: 'Raleway', sans-serif; font-weight:400; transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out; /* Safari */}
+	.kKonuBaslik h2 a:hover {color: #2a60bb;}
+	.kKonuBilgi {font-size: 12px; color: #999999; display: block; line-height: 21px; margin-top: 15px; margin-bottom: 15px; }
+	.kKonuYazi {font-size: 14px; color: #555555; line-height: 23px;}
+	.kKonuYazi a {color: #2a60bb;}
+	.kKonuYazi img {display: none;}
+/* Kısa Konu End */
+
+/* İletişim */
+	.iBilgi {overflow: hidden; border: 1px solid #ebebeb; box-shadow: 0 1px 2px #eee; padding: 25px 0; margin-top: 35px; margin-bottom: 10px; background-color: #ffffff;}
+	.iBilgiicerik {width: 650px;}
+	.iBilgiBaslik {font-family: 'Raleway', sans-serif; font-weight:400; font-size: 30px; padding: 5px; margin: 10px; margin-top: 45px; line-height: 25px;}
+    .iletisimAlani {margin: 10px; padding: 5px;}
+	.iletisimAlani span {display: block; font-size: 13px; line-height: 28px;}
+	.iletisimAlani input {width: 280px; color: #AAAAAA; border: 1px solid #DFDFDF; border-radius: 2px; padding: 10px;display: block; overflow: hidden;}
+	.iletisimAlani textarea {border: 1px solid #DFDFDF; border-radius: 2px; padding: 10px; display: block; width: 600px; margin-bottom: 10px;}
+	.iletisimAlani input[type='submit'] {width: 100px; background-color: #fff; border-radius: 10px; color: #555; float: right;}
+/* İletişim End */
+
+/* Yer Bilgi */
+	.yerbilgi {position: absolute; top: 50px; margin-left: 15px; overflow: hidden; width: 640px; border-bottom: 1px solid #dfdfdf; padding-bottom: 10px; font-size: 14px; line-height: 25px; }
+	.yerbilgi a {color: #222222;}
+/* Yer Bilgi End */
+
+/* Donanım İçerik */
+	.dKonu {border-bottom: 1px solid #dfdfdf; padding: 40px 0; overflow: hidden; border: 1px solid #ebebeb; box-shadow: 0 1px 2px #eee; padding: 40px 0; margin-top: 45px; margin-bottom: 10px; background-color: #ffffff;}
+	.dKonuicerik {margin-top:15px; padding-bottom:45px; width: 650px;}
+	.dKonuBaslik {font-family: 'Raleway', sans-serif; font-weight:400; font-size: 30px; padding: 5px; margin: 10px; margin-top: 45px; line-height: 25px;}
+	.dKonuBaslik h2 a {color: #222222; }
+	.dKonuBaslik h2 a:hover {color: #2a60bb;}
+    .dKonuBilgi {font-size: 12px; margin: 10px; padding: 5px; }
+	.dKonuYazi {margin: 15px; padding: 5px; font-size: 14px; line-height: 25px;}
+	.dKonuYazi a {color: #2a60bb; background: url("../images/link.png") no-repeat right; padding-right: 16px;}
+    .dKonuResim {margin-right: 30px; margin-bottom:50px; float: left;}
+/* Donanım İcerik End */
+		
+/* Yorum Yap */
+	.yorumYap {margin: 10px; padding: 5px;}
+	.yorumYap h3 {font-size: 18px; line-height: 28px; border-bottom: 1px solid #dfdfdf; padding-bottom: 10px; margin-bottom: 10px;}
+	.yorumYap span {display: block; font-size: 13px; line-height: 28px;}
+	.yorumYap input {width: 280px; color: #AAAAAA; border: 1px solid #DFDFDF; border-radius: 2px; padding: 10px;display: block; overflow: hidden;}
+	.yorumYap textarea {border: 1px solid #DFDFDF; border-radius: 2px; padding: 10px; display: block; width: 600px; margin-bottom: 10px;}
+	.yorumYap input[type='submit'] {width: 190px; 
+background-color: #fff; border-radius: 10px; color: #555; float: right;
+    margin-left: 139px;
+}
+/* Yorum Yap End */
+
+		
+/* Yorumlar */
+	.yorum {margin: 10px; padding: 5px; overflow: hidden; position: relative; border-bottom: 1px solid #dfdfdf; padding-bottom: 25px; margin-bottom: 25px;}
+	.yorumAvatar {float: left; margin-right: 10px;}
+	.yorumAvatar img {width: 75px; height: 75px; border-radius: 50px;}
+	.yorum h2 {font-family: 'Raleway', sans-serif; font-weight:400; font-size: 14px; line-height: 20px; margin-bottom: 10px;}
+	.yorum h2 a {color: #494949;}
+	.yorum span {position: absolute; right: 12px; 
+font-size: 12px; color: #d3d3d3; font-style: italic;
+    top: 6px;
+    width: 134px;
+}
+	.yorumYazi {font-size: 13px; line-height: 25px;}
+/* Yorumlar End */
+
+/* Tam Konu */
+	.tKonu {overflow: hidden; border: 1px solid #ebebeb; box-shadow: 0 1px 2px #eee; padding: 25px 0; margin-top: 35px; margin-bottom: 10px; background-color: #ffffff;}
+	.tKonuicerik {width: 650px;}
+	.tKonuBaslik {font-family: 'Raleway', sans-serif; font-weight:400; font-size: 30px; padding: 5px; margin: 10px; margin-top: 45px; line-height: 25px;}
+	.tKonuBilgi {font-size: 12px; margin: 10px; padding: 5px; }
+	.tKonuYazi {margin: 10px; padding: 5px; font-size: 14px; line-height: 25px;}
+	.tKonuYazi a {color: #2a60bb; background: url("../images/link.png") no-repeat right; padding-right: 16px;}
+/* Tam Konu End */
